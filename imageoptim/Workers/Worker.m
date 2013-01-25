@@ -51,7 +51,7 @@
 
 -(NSString *)description
 {
-	return [NSString stringWithFormat:@"%@ %X ready %d, running %d, deleg %@",
+	return [NSString stringWithFormat:@"%@ %lX ready %d, running %d, deleg %@",
             [self className],[self hash],[self isReady],[self isExecuting],[self delegate]];
 }
 

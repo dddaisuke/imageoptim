@@ -39,7 +39,7 @@
 
 	if (level)
 	{
-		[args insertObject:[NSString stringWithFormat:@"-s%d",level] atIndex:0];
+		[args insertObject:[NSString stringWithFormat:@"-s%ld",level] atIndex:0];
 	}
 
 	if (!removechunks)

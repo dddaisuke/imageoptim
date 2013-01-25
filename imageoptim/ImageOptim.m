@@ -138,7 +138,7 @@
 
 -(IBAction)viewSource:(id)sender
 {
-	[self openURL:@"http://imageoptim.com/source"];
+	[self openURL:@"http://github.com/dddaisuke/imageoptim"];
 }
 
 -(void)openURL:(NSString *)stringURL

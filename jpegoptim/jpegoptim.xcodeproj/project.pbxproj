@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8167B30EA11E3F00962CF2 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A8167820EA11E3F00962CF2 /* getopt.c */; };
+		5A8167B40EA11E3F00962CF2 /* getopt1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A8167830EA11E3F00962CF2 /* getopt1.c */; };
+		5A8167B50EA11E3F00962CF2 /* jpegoptim.c in Sources */ = {isa = PBXBuildFile; fileRef = 5A8167840EA11E3F00962CF2 /* jpegoptim.c */; };
+		5AA49DB5111CC25500137D50 /* libimageoptimjpeg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA49DB0111CC23000137D50 /* libimageoptimjpeg.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A62DB1E111CCEC1008848D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A401AF1111A75A500908C9B /* jpeg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC0620554660B00DB518D;
+			remoteInfo = jpeg;
+		};
+		5AA49DAF111CC23000137D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A401AF1111A75A500908C9B /* jpeg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC0630554660B00DB518D;
+			remoteInfo = jpeg;
+		};
+		5F084AA91124135A00C7B074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F084AA61124134B00C7B074;
+			remoteInfo = download;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A27BA31139B09080095FC2F /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = release.xcconfig; path = ../imageoptim/release.xcconfig; sourceTree = SOURCE_ROOT; };
+		5A27BA32139B09080095FC2F /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = ../imageoptim/debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		5A401AF1111A75A500908C9B /* jpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = jpeg.xcodeproj; path = ../libjpeg/jpeg.xcodeproj; sourceTree = "<group>"; };
+		5A4552991024E22200A69944 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		5A81674F0EA11E3F00962CF2 /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jconfig.h; path = ../libjpeg/jconfig.h; sourceTree = SOURCE_ROOT; };
+		5A8167820EA11E3F00962CF2 /* getopt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = SOURCE_ROOT; };
+		5A8167830EA11E3F00962CF2 /* getopt1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt1.c; sourceTree = SOURCE_ROOT; };
+		5A8167840EA11E3F00962CF2 /* jpegoptim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jpegoptim.c; sourceTree = SOURCE_ROOT; };
+		8DD76FB20486AB0100D96B5E /* jpegoptim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jpegoptim; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA49DB5111CC25500137D50 /* libimageoptimjpeg.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* jpegoptim */ = {
+			isa = PBXGroup;
+			children = (
+				5A401AF1111A75A500908C9B /* jpeg.xcodeproj */,
+				08FB7795FE84155DC02AAC07 /* jpegoptim */,
+				5A27BA31139B09080095FC2F /* release.xcconfig */,
+				5A27BA32139B09080095FC2F /* debug.xcconfig */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = jpegoptim;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* jpegoptim */ = {
+			isa = PBXGroup;
+			children = (
+				5A81674E0EA11E3F00962CF2 /* jpegoptim */,
+			);
+			name = jpegoptim;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* jpegoptim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A81674E0EA11E3F00962CF2 /* jpegoptim */ = {
+			isa = PBXGroup;
+			children = (
+				5A4552991024E22200A69944 /* config.h */,
+				5A8167820EA11E3F00962CF2 /* getopt.c */,
+				5A8167830EA11E3F00962CF2 /* getopt1.c */,
+				5A8167840EA11E3F00962CF2 /* jpegoptim.c */,
+				5A81674F0EA11E3F00962CF2 /* jconfig.h */,
+			);
+			name = jpegoptim;
+			sourceTree = "<group>";
+		};
+		5AA49DAC111CC23000137D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA49DB0111CC23000137D50 /* libimageoptimjpeg.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		5F084AA61124134B00C7B074 /* download */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 5F084AB01124136700C7B074 /* Build configuration list for PBXLegacyTarget "download" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = download;
+			passBuildSettingsInEnvironment = 1;
+			productName = download;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* jpegoptim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "jpegoptim" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A62DB1F111CCEC1008848D0 /* PBXTargetDependency */,
+				5F084AAA1124135A00C7B074 /* PBXTargetDependency */,
+			);
+			name = jpegoptim;
+			productInstallPath = "$(HOME)/bin";
+			productName = jpegoptim;
+			productReference = 8DD76FB20486AB0100D96B5E /* jpegoptim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "jpegoptim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* jpegoptim */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AA49DAC111CC23000137D50 /* Products */;
+					ProjectRef = 5A401AF1111A75A500908C9B /* jpeg.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* jpegoptim */,
+				5F084AA61124134B00C7B074 /* download */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AA49DB0111CC23000137D50 /* libimageoptimjpeg.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libimageoptimjpeg.dylib;
+			remoteRef = 5AA49DAF111CC23000137D50 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8167B30EA11E3F00962CF2 /* getopt.c in Sources */,
+				5A8167B40EA11E3F00962CF2 /* getopt1.c in Sources */,
+				5A8167B50EA11E3F00962CF2 /* jpegoptim.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A62DB1F111CCEC1008848D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jpeg;
+			targetProxy = 5A62DB1E111CCEC1008848D0 /* PBXContainerItemProxy */;
+		};
+		5F084AAA1124135A00C7B074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F084AA61124134B00C7B074 /* download */;
+			targetProxy = 5F084AA91124135A00C7B074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = jpegoptim;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = jpegoptim;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A27BA32139B09080095FC2F /* debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../libjpeg/";
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A27BA31139B09080095FC2F /* release.xcconfig */;
+			buildSettings = {
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				"GCC_MODEL_TUNING[arch=x86_64]" = "-mtune=core2";
+				GCC_OBJC_CALL_CXX_CDTORS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					HAVE_CONFIG_H,
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../libjpeg/";
+			};
+			name = Release;
+		};
+		5F084AA71124134C00C7B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				PRODUCT_NAME = download;
+			};
+			name = Debug;
+		};
+		5F084AA81124134C00C7B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				PRODUCT_NAME = download;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "jpegoptim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "jpegoptim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F084AB01124136700C7B074 /* Build configuration list for PBXLegacyTarget "download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F084AA71124134C00C7B074 /* Debug */,
+				5F084AA81124134C00C7B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdvPngEnabled</key>
+	<true/>
+	<key>AdvPngLevel</key>
+	<real>4</real>
+	<key>JpegOptimEnabled</key>
+	<true/>
+	<key>JpegOptimMaxQuality</key>
+	<integer>100</integer>
+	<key>JpegTranStripAll</key>
+	<true/>
+	<key>JpegTranEnabled</key>
+	<true/>
+	<key>JpegRescanEnabled</key>
+	<true/>
+	<key>OptiPngEnabled</key>
+	<true/>
+	<key>OptiPngLevel</key>
+	<real>6</real>
+	<key>PngCrushEnabled</key>
+	<true/>
+	<key>PngOutEnabled</key>
+	<false/>
+	<key>PngOutLevel</key>
+	<integer>3</integer>
+	<key>PngOutRemoveChunks</key>
+	<true/>
+	<key>PngOutInterruptIfTakesTooLong</key>
+	<true/>
+	<key>GifsicleEnabled</key>
+	<true/>
+	<key>PreservePermissions</key>
+	<true/>
+	<key>RunConcurrentDirscans</key>
+	<integer>2</integer>
+	<key>RunConcurrentTasks</key>
+	<real>2</real>
+	<key>RunLowPriority</key>
+	<true/>
+	<key>BackupFiles</key>
+	<false/>
+</dict>
+</plist>

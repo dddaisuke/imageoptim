@@ -1,0 +1,27 @@
+"All neccessary tools have been disabled in Preferences" = "すべてのツールは、環境設定で無効にされています";
+
+"Can't map file into memory" = "ファイルをメモリにマップすることはできません";
+
+"File cannot be optimized any further" = "ファイルは、それ以上は最適化できません";
+
+"File is neither PNG nor JPEG" = "ファイルはPNGまたはJPGではありません";
+
+"Inspecting file" = "ファイルを確認";
+
+"New file" = "新規ファイル";
+
+"Optimized file could not be saved" = "最適化されたファイルを保存できませんでした";
+
+"Optimized successfully with %@" = "%@を使用して最適化に成功";
+
+"Size of optimized file is 0" = "最適化されたファイルのサイズは0です";
+
+"Started %@" = "開始 %@";
+
+"Waiting in queue" = "キューで待機中";
+
+"Waiting to be optimized" = "最適化を待機しています";
+
+"Waiting to start more optimisations" = "より最適化されるのを待機しています";
+
+"%@ failed to start" = "%@は開始に失敗しました";

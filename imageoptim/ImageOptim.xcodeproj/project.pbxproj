@@ -386,6 +386,11 @@
 		5AE74B62146DECB800287FA6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "pt-BR"; path = "pt-BR.lproj/Credits.rtf"; sourceTree = "<group>"; };
 		5AEF1B1D10F2BCA900E3E4F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5AEF1B2110F2BCB200E3E4F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E7D4CF616B36466006224A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/PrefsController.xib; sourceTree = "<group>"; };
+		7E7D4CF716B36466006224A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7E7D4CF816B36466006224A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7E7D4CF916B36466006224A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ja; path = ja.lproj/Help; sourceTree = "<group>"; };
+		7E7D4CFA16B36466006224A3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* ImageOptim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageOptim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -708,6 +713,7 @@
 				fr,
 				no,
 				"pt-BR",
+				ja,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* ImageOptim */;
 			projectDirPath = "";
@@ -988,6 +994,7 @@
 				5A7D24F313EDF5F100815AAA /* es */,
 				5AD299BB1436757F0048C725 /* no */,
 				5AE74B5C146DECA300287FA6 /* pt-BR */,
+				7E7D4CF716B36466006224A3 /* ja */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -1007,6 +1014,7 @@
 				5A7D24F413EDF5F100815AAA /* es */,
 				5AD299BD143675870048C725 /* no */,
 				5AE74B5E146DECAA00287FA6 /* pt-BR */,
+				7E7D4CF616B36466006224A3 /* ja */,
 			);
 			name = PrefsController.xib;
 			sourceTree = "<group>";
@@ -1026,6 +1034,7 @@
 				5A7D24F013EDF5F100815AAA /* es */,
 				5AD299B71436756D0048C725 /* no */,
 				5AE74B62146DECB800287FA6 /* pt-BR */,
+				7E7D4CF816B36466006224A3 /* ja */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -1044,6 +1053,7 @@
 				5A7D24F213EDF5F100815AAA /* es */,
 				5AD299B9143675770048C725 /* no */,
 				5AE74B57146DEC8700287FA6 /* pt-BR */,
+				7E7D4CFA16B36466006224A3 /* ja */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1061,6 +1071,7 @@
 				5A7D24F113EDF5F100815AAA /* es */,
 				5AD299C2143675BB0048C725 /* no */,
 				5AE74B60146DECB100287FA6 /* pt-BR */,
+				7E7D4CF916B36466006224A3 /* ja */,
 			);
 			name = Help;
 			sourceTree = "<group>";

@@ -1,5 +1,7 @@
 [![endorse](http://api.coderwall.com/dddaisuke/endorsecount.png)](http://coderwall.com/dddaisuke)
 
+### > [Download binary here!](https://github.com/dddaisuke/download/raw/master/ImageOptim.tar.bz2) <
+
 imageoptim
 ==========
 

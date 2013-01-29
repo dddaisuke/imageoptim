@@ -392,6 +392,9 @@ pngcrush/zconf.h
 pngcrush/zlib.h
 pngcrush/zutil.c
 pngcrush/zutil.h
+pngcrush/gzguts.h
+pngcrush/mozpngconf.h
+pngcrush/pngsimple.h
 zlib/ChangeLog
 zlib/FAQ
 zlib/INDEX

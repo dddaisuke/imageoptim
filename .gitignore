@@ -339,6 +339,10 @@ libpng/pngwutil.c
 libpng/projects/
 libpng/scripts/
 libpng/test-pngtest.sh
+libpng/README.optipng.txt
+libpng/libpng-1.4.12.txt
+libpng/sunfix-makefile.patch
+libpng/sunfix.patch
 optipng/lib/
 optipng/patched
 optipng/src/

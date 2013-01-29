@@ -32,6 +32,8 @@
 		[args insertObject:[NSString stringWithFormat:@"-i%ld",interlace] atIndex:0];
 	}
 
+//    [args insertObject:@"-nc" atIndex:0];
+    NSLog(@"%@", args);
 	if (![self taskForKey:@"OptiPng" bundleName:@"optipng" arguments:args]) {
         return;
     }

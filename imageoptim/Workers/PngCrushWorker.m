@@ -24,9 +24,14 @@
     // Reusing PngOut config here
     if (strip) {
         [args insertObject:@"-rem" atIndex:0];
-        [args insertObject:@"alla" atIndex:1];
+        [args insertObject:@"gAMA" atIndex:1];
+        [args insertObject:@"-rem" atIndex:2];
+        [args insertObject:@"cHRM" atIndex:3];
+        [args insertObject:@"-rem" atIndex:4];
+        [args insertObject:@"sRGB" atIndex:5];
     }
 
+    NSLog(@"%@", args);
     if (![self taskForKey:@"PngCrush" bundleName:@"pngcrush" arguments:args]) {
         return;
     }
